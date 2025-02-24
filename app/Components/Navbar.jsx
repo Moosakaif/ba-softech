@@ -87,8 +87,8 @@ export default function Header() {
 
         {/* Contact Info */}
         <div data-aos="fade-left" className="hidden md:flex items-center text-cards font-bold">
-          <a href="mailto:info@techhavenmarketing.com" className="hover:text-white">
-            info@techhavenmarketing.com
+          <a href="mailto:info@basoftech.com" className="hover:text-white">
+            info@basoftech.com
           </a>
         </div>
 
@@ -181,10 +181,10 @@ export default function Header() {
             </Link>
 
             <a
-              href="mailto:info@techhavenmarketing.com"
+              href="mailto:info@basoftech.com"
               className="text-cards font-bold hover:text-white"
             >
-              info@techhavenmarketing.com
+              info@basoftech.com
             </a>
           </div>
         </div>
