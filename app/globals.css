@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  
+  .btn-primary {
+    @apply bg-cyan-500 text-white px-6 py-2 rounded font-medium hover:bg-cyan-600 transition-colors;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-orange-500 text-orange-500 px-6 py-2 rounded font-medium hover:bg-orange-500 hover:text-white transition-colors;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .form-input {
+    @apply w-full p-3 rounded bg-white font-normal;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .damascus-pattern {
+    background-color: #1a1a1a;
+    background-image: 
+      linear-gradient(30deg, #222222 12%, transparent 12.5%, transparent 87%, #222222 87.5%, #222222),
+      linear-gradient(150deg, #222222 12%, transparent 12.5%, transparent 87%, #222222 87.5%, #222222),
+      linear-gradient(30deg, #222222 12%, transparent 12.5%, transparent 87%, #222222 87.5%, #222222),
+      linear-gradient(150deg, #222222 12%, transparent 12.5%, transparent 87%, #222222 87.5%, #222222),
+      linear-gradient(60deg, #22222277 25%, transparent 25.5%, transparent 75%, #22222277 75%, #22222277),
+      linear-gradient(60deg, #22222277 25%, transparent 25.5%, transparent 75%, #22222277 75%, #22222277);
+    background-size: 40px 70px;
+    background-position: 0 0, 0 0, 20px 35px, 20px 35px, 0 0, 20px 35px;
+  }
+
+  /* Slick carousel custom styles */
+  .slick-dots {
+    bottom: -40px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #f97316;
+    opacity: 0.3;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #f97316;
+    opacity: 1;
+  }
+}
+
+.glow-text {
+  text-shadow: 0 0 10px #ffffff, 0 0 2px #00ffcc, 0 0 3px #00ffcc;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #56ffbd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #50dbf3;
+}
+
+.preloader {
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.preloader .texts-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  width: auto;
+  font-size: 40px;
+  font-weight: 800;
+  overflow: hidden;
+  color: white;
+}
