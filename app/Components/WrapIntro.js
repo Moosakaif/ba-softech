@@ -32,7 +32,7 @@ export default function WarpIntro({ onFinish }) {
               duration: 0.5,
               delay: 0.2,
               ease: "power2.in",
-              onComplete: onFinish // Simply call onFinish without trying to remove the node
+              onComplete: onFinish
             });
         }} />
       </Canvas>
@@ -47,18 +47,15 @@ function SpaceWarp({ onFinish }) {
   const groupRef = useRef();
 
   useEffect(() => {
-    gl.setPixelRatio(Math.min(2, window.devicePixelRatio));
+    gl.setPixelRatio(Math.min(1.5, window.devicePixelRatio));
     gl.setSize(window.innerWidth, window.innerHeight);
     gl.physicallyCorrectLights = false;
     gl.outputEncoding = THREE.LinearEncoding;
-    
-    // Cleanup function
     return () => {
       if (tunnelRef.current) {
         tunnelRef.current.geometry.dispose();
         tunnelRef.current.material.dispose();
       }
-      // Let Three.js handle its own cleanup
     };
   }, [gl]);
 
@@ -102,19 +99,20 @@ function SpaceWarp({ onFinish }) {
     <group ref={groupRef} scale={0.1}>
       <Stars
         ref={starsRef}
-        radius={150}
-        depth={100}
-        count={3000}
-        factor={4}
+        radius={100}  // Reduce from 150
+        depth={80}  // Reduce from 100
+        count={1500}  // Reduce from 3000
+        factor={3} // Lower star size factor
         fade
-        speed={0.5}
+        speed={0.3} // Reduce speed
       />
+
 
       <mesh ref={tunnelRef}>
         <cylinderGeometry args={[5, 0.1, 150, 24, 20, true]} />
         <meshBasicMaterial
           side={THREE.BackSide}
-          color="#4444ff"
+          color="#FFEE8C"
           wireframe
           transparent
           opacity={0.8}

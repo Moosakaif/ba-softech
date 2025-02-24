@@ -102,7 +102,7 @@ const page = () => {
           {/* Text Content */}
           <div className="text-white max-w-2xl">
             <h2 className="font-oswald text-lg md:text-xl mb-4 text-cards uppercase font-medium tracking-wider">
-              Tech Haven - Crafting Excellence, Providing Growth
+              B.A Softech - Crafting Excellence, Providing Growth
             </h2>
             <h1 className="font-oswald text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
               Payment Merchant Services We Offer

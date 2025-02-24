@@ -11,19 +11,19 @@ const Testimonials = () => {
     {
       name: "John Doe",
       title: "CEO, Example Corp",
-      text: "Tech Haven transformed our vision into a reality with their exceptional design and development skills. Their attention to detail and commitment to quality is unmatched. We couldn’t be happier with the results!",
+      text: "B.A Softech transformed our vision into a reality with their exceptional design and development skills. Their attention to detail and commitment to quality is unmatched. We couldn’t be happier with the results!",
       
     },
     {
       name: "Jane Smith",
       title: "CTO, Startup Co.",
-      text: "Working with Tech Haven was a seamless experience. Their team delivered beyond our expectations, combining creativity and expertise. They truly brought our project to life!",
+      text: "Working with B.A Softech was a seamless experience. Their team delivered beyond our expectations, combining creativity and expertise. They truly brought our project to life!",
       
     },
     {
       name: "Emily Johnson",
       title: "Manager, Global Enterprises",
-      text: "Tech Haven exceeded our expectations at every step. Their professionalism, attention to detail, and innovative solutions were unmatched. We couldn't be happier with the results!",
+      text: "B.A Softech exceeded our expectations at every step. Their professionalism, attention to detail, and innovative solutions were unmatched. We couldn't be happier with the results!",
       
     },
   ];

@@ -21,8 +21,8 @@ const WhyChooseUs = () => {
         <section className='md:w-[50%] w-full'>
             <div>
                 <p data-aos="fade-right" className='md:text-3xl text-2xl uppercase text-cards font-bold'>Why Choose</p>
-                <h1 data-aos="fade-down" className='md:text-5xl text-3xl font-bold text-white mt-6'>Why Choose Tech Haven For Your Project?</h1>
-                <p data-aos="fade-up" className='text-md text-white mt-6'>At Tech Haven, we believe outsourcing should be about building relationships, not just getting tasks done. That’s why we pour our hearts into crafting a seamless and enjoyable experience. Our goal is to ensure that our clients feel like an extension of our team.</p>
+                <h1 data-aos="fade-down" className='md:text-5xl text-3xl font-bold text-white mt-6'>Why Choose B.A Softech For Your Project?</h1>
+                <p data-aos="fade-up" className='text-md text-white mt-6'>At B.A Softech, we believe outsourcing should be about building relationships, not just getting tasks done. That’s why we pour our hearts into crafting a seamless and enjoyable experience. Our goal is to ensure that our clients feel like an extension of our team.</p>
                 <p data-aos="fade-right" className='text-md text-white mt-6'>As development experts, we know how to create top-notch products that exceed expectations. But it’s our dedication to customer service that truly sets us apart. We are here to listen, advise and support you every step of the way.</p>
                 <p data-aos="fade-left" className='text-md text-white mt-6'>No project is too big, complex, or small for our talented and experienced team. From custom software development to ongoing maintenance and support, we’ve got you covered.</p>
                 <p data-aos="fade-up" className='text-md text-white mt-6'><span className='text-cards'>&#x2022;</span>&nbsp; Access to Global talent.</p>

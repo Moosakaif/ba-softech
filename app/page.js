@@ -18,7 +18,6 @@ export default function Home() {
 
   useEffect(() => {
     if (showContent) {
-      // Add a slight delay before showing content
       setTimeout(() => {
         setContentVisible(true);
       }, 100);

@@ -93,7 +93,8 @@ export default function Hero() {
             <h1 data-aos="fade-up" className="font-oswald text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
               YOUR PATHWAY TO TURNING LITERARY DREAMS INTO REALITY
             </h1>
-            <button onClick={openModal} data-aos="fade-right" className="btn-primary hover:text-white hover:bg-card1 bg-cards text-black text-lg uppercase tracking-wider">
+            <p data-aos="fade-left" className='text-xl max-w-2xl mx-auto text-center'>B.A Softech is a dynamic technology and content services company specializing in cutting-edge development and eBook solutions. Our expertise spans multiple domains, offering tailored services for businesses and individuals looking to scale their digital presence.</p>
+            <button onClick={openModal} data-aos="fade-right" className="btn-primary mt-4 hover:text-white hover:bg-card1 bg-cards text-black text-lg uppercase tracking-wider">
               DISCOVER MORE
             </button>
             <ContactModal isOpen={isModalOpen} onClose={closeModal} />

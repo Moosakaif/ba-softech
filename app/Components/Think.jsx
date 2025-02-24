@@ -48,7 +48,7 @@ const Think = () => {
             Improving The Code Base, Frameworks, Languages, And Designs.
           </h1>
           <p data-aos="fade-up" className="text-md text-white mt-6">
-            At Tech Haven, our agile and multi-disciplinary development teams
+            At B.A Softech, our agile and multi-disciplinary development teams
             have a well-defined methodology to deliver high-quality results. Our
             expertise spans a wide range of developmental projects, from UI/UX
             design to web or mobile development.

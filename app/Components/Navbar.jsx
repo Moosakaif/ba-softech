@@ -1,10 +1,8 @@
 "use client";
 
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { font } from './fonts/font';
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 export default function Header() {
   const [isServicesOpen, setIsServicesOpen] = useState(false);
@@ -19,21 +17,14 @@ export default function Header() {
     "Payment Merchant Services"
   ];
 
-  useEffect(() => {
-          AOS.init({
-            duration: 1000,
-            once: true,
-          });
-        }, []);
-
   return (
     <header className={`${font.className} bg-black relative top-0 w-full`}>
       <nav className="max-w-[1400px] mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <div data-aos="flip-left" className="flex items-center">
+        <div className="flex items-center">
           <Link href="/">
             <img
-              src="/logo-new-2.png"
+              src="/main-logo.png"
               alt="Logo"
               className="w-48 h-auto"
             />
@@ -42,36 +33,29 @@ export default function Header() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex space-x-6 items-center">
-          <Link data-aos="fade-right" href="/" className="text-white hover:text-cards transition">
+          <Link href="/" className="text-white z-50 hover:text-cards transition">
             Home
           </Link>
 
           <div 
-            className="relative group" 
+            className="relative z-50 group cursor-pointer" 
             onMouseEnter={() => setIsServicesOpen(true)}
             onMouseLeave={() => setIsServicesOpen(false)}
           >
-            <button 
-              className="nav-link text-white hover:text-cards flex items-center"
-              data-aos="fade-up"
-            >
+            <button className="nav-link z-50 text-white hover:text-cards flex items-center">
               Services
-              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-4 z-50 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </button>
             
             {isServicesOpen && (
-              <div 
-                className="absolute top-full left-0 transform bg-white shadow-lg rounded-lg py-2 w-64 z-50 overflow-visible"
-                
-              >
+              <div className="absolute z-50 top-full left-0 bg-white shadow-lg rounded-lg py-2 w-64">
                 {services.map((service, index) => (
                   <Link 
                     key={index} 
                     href={`/services/${service.toLowerCase().replace(/\s+/g, '')}`}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-sky-100 hover:text-sky-700"
-                    data-aos="fade-down"
+                    className="block px-4 py-2 z-50 text-sm text-gray-700 hover:bg-sky-100 hover:text-sky-700"
                   >
                     {service}
                   </Link>
@@ -80,20 +64,20 @@ export default function Header() {
             )}
           </div>
 
-          <Link  data-aos="fade-left" href="/contact" className="text-white hover:text-cards transition">
+          <Link href="/contact" className="text-white z-50 hover:text-cards transition">
             Contact Us
           </Link>
         </div>
 
         {/* Contact Info */}
-        <div data-aos="fade-left" className="hidden md:flex items-center text-cards font-bold">
+        <div className="hidden md:flex items-center text-cards font-bold">
           <a href="mailto:info@basoftech.com" className="hover:text-white">
             info@basoftech.com
           </a>
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="md:hidden z-50">
           <button
             className="text-white"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -130,7 +114,7 @@ export default function Header() {
           <div className="flex flex-col p-4 space-y-4">
             <Link
               href="/"
-              className="text-white hover:text-cards transition"
+              className="text-white z-50 hover:text-cards transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
@@ -139,11 +123,11 @@ export default function Header() {
             <div>
               <button
                 onClick={() => setIsServicesOpen(!isServicesOpen)}
-                className="w-full text-left flex items-center text-white justify-between"
+                className="w-full text-left z-50 flex items-center text-white justify-between"
               >
                 Services
                 <svg
-                  className={`w-4 h-4 transform ${isServicesOpen ? 'rotate-180' : ''}`}
+                  className={`w-4 h-4 z-50 transform ${isServicesOpen ? 'rotate-180' : ''}`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -157,12 +141,12 @@ export default function Header() {
                 </svg>
               </button>
               {isServicesOpen && (
-                <div className="pl-4 mt-2 space-y-2">
+                <div className="pl-4 z-50 mt-2 space-y-2">
                   {services.map((service, index) => (
                     <Link
                       key={index}
                       href={`/services/${service.toLowerCase().replace(/\s+/g, '')}`}
-                      className="block py-1 text-sm text-cards hover:text-sky-700"
+                      className="block z-50 py-1 text-sm text-cards hover:text-sky-700"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       {service}
@@ -174,7 +158,7 @@ export default function Header() {
 
             <Link
               href="/contact"
-              className="text-white hover:text-cards transition"
+              className="text-white z-50 hover:text-cards transition"
               onClick={() => setIsMenuOpen(false)}
             >
               Contact Us
@@ -186,7 +170,7 @@ export default function Header() {
             >
               info@basoftech.com
             </a>
-          </div>
+          </div> 
         </div>
       )}
     </header>

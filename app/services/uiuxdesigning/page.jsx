@@ -100,7 +100,7 @@ const page = () => {
           {/* Text Content */}
           <div className="text-white max-w-2xl">
             <h2 className="font-oswald text-lg md:text-xl mb-4 text-cards uppercase font-medium tracking-wider">
-              Tech Haven - Crafting Excellence, Providing Growth
+              B.A Softech - Crafting Excellence, Providing Growth
             </h2>
             <h1 className="font-oswald text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
               UI/UX Designing Services
@@ -125,7 +125,7 @@ const page = () => {
         <div>
           
           <p className="text-md text-white mt-6">
-          Are you in need of a skilled UI/UX Designer or team to bring your web application idea to life? Look no further than Tech Haven.
+          Are you in need of a skilled UI/UX Designer or team to bring your web application idea to life? Look no further than B.A Softech.
           </p>
           <p className="text-md text-white mt-6">
           As a leading development agency, we have a network of experienced UI/UX Designer that we can connect you with. No matter what your needs are, we can help you find the right fit for your project.

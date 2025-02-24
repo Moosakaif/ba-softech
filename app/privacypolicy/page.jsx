@@ -90,7 +90,7 @@ const page = () => {
           {/* Text Content */}
           <div className="text-white max-w-2xl">
             <h2 data-aos="fade-down" className="font-oswald text-lg md:text-xl mb-4 text-cards uppercase font-medium tracking-wider">
-              Tech Haven - Crafting Excellence, Providing Growth
+              B.A Softech - Crafting Excellence, Providing Growth
             </h2>
             <h1 data-aos="fade-up" className="font-oswald text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
               Privacy Policy
@@ -107,7 +107,7 @@ const page = () => {
             Your Privacy, Our Commitment
           </h1>
           <p className="text-white leading-relaxed p-4">
-                Tech Haven Marketing LLC takes your privacy seriously. We are dedicated to protecting your personal data and using it responsibly. Our Consumer Data Policy ensures transparency and fosters trust, so you can engage with our services confidently.
+                B.A Softech Marketing LLC takes your privacy seriously. We are dedicated to protecting your personal data and using it responsibly. Our Consumer Data Policy ensures transparency and fosters trust, so you can engage with our services confidently.
                 </p>
                 <h2 className="text-4xl font-oswald text-cards p-4">
                 Data Collection

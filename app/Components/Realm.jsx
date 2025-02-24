@@ -111,9 +111,9 @@ const Realm = () => {
             display: "none",
           }}
         >
-          <p className="md:text-4xl text-2xl text-cards ">What is Tech Haven?</p>
+          <p className="md:text-4xl text-2xl text-cards ">What is B.A Softech?</p>
           <p className="md:text-lg text-xs max-w-xl mt-4 text-white ">
-            At Tech Haven, our agile and multi-disciplinary development teams
+            At B.A Softech, our agile and multi-disciplinary development teams
             have a well-defined methodology to deliver high-quality results. Our
             expertise spans a wide range of developmental projects, from UI/UX
             design to web or mobile development.

@@ -104,7 +104,7 @@ const page = () => {
           {/* Text Content */}
           <div className="text-white max-w-2xl">
             <h2 className="font-oswald text-lg md:text-xl mb-4 text-cards uppercase font-medium tracking-wider">
-              Tech Haven - Crafting Excellence, Providing Growth
+              B.A Softech - Crafting Excellence, Providing Growth
             </h2>
             <h1 className="font-oswald text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-wide">
               Android Development Services
@@ -129,7 +129,7 @@ const page = () => {
         <div>
           
           <p className="text-md text-white mt-6">
-          Are you in need of a skilled Android Developer or team to bring your android application idea to life? Look no further than Tech Haven.
+          Are you in need of a skilled Android Developer or team to bring your android application idea to life? Look no further than B.A Softech.
           </p>
           <button onClick={openModal} className="btn-primary bg-cards text-black hover:text-white hover:bg-card1 mt-6">
             Let's Connect

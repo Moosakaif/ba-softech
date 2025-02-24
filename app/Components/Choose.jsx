@@ -51,7 +51,7 @@ const Choose = () => {
         <section className='md:w-[50%]  pt-12 md:pt-0 w-full'>
             <div>
                 <p className='md:text-3xl text-2xl uppercase text-cards'>Curious Why-</p>
-                <h1 className='md:text-5xl text-3xl font-bold text-white mt-6'>People Choose Tech Haven</h1>
+                <h1 className='md:text-5xl text-3xl font-bold text-white mt-6'>People Choose B.A Softech</h1>
                 <p className='text-md text-white mt-6'>We are a platform that offers amazing career opportunities to everyone who shakes our hand.</p>
                 <p className='text-md text-white mt-6'>&#x2022;&nbsp; Vetted once, eligible for life</p>
                 <p className='text-md text-white '>&#x2022;&nbsp; Exclusive Turing developer community</p>
