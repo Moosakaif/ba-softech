@@ -47,7 +47,7 @@ function SpaceWarp({ onFinish }) {
   const groupRef = useRef();
 
   useEffect(() => {
-    gl.setPixelRatio(Math.min(1.5, window.devicePixelRatio));
+    gl.setPixelRatio(Math.min(1, window.devicePixelRatio));
     gl.setSize(window.innerWidth, window.innerHeight);
     gl.physicallyCorrectLights = false;
     gl.outputEncoding = THREE.LinearEncoding;
@@ -99,12 +99,12 @@ function SpaceWarp({ onFinish }) {
     <group ref={groupRef} scale={0.1}>
       <Stars
         ref={starsRef}
-        radius={100}  // Reduce from 150
-        depth={80}  // Reduce from 100
-        count={1500}  // Reduce from 3000
-        factor={3} // Lower star size factor
+        radius={70} 
+        depth={50}  
+        count={1500} 
+        factor={2}
         fade
-        speed={0.3} // Reduce speed
+        speed={0.3}
       />
 
 
