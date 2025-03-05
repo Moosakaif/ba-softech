@@ -36,6 +36,9 @@ export default function Header() {
           <Link href="/" className="text-white z-50 hover:text-cards transition">
             Home
           </Link>
+          <Link href="/about" className="text-white z-50 hover:text-cards transition">
+            About
+          </Link>
 
           <div 
             className="relative z-50 group cursor-pointer" 
