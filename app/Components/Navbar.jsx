@@ -24,9 +24,9 @@ export default function Header() {
         <div className="flex items-center">
           <Link href="/">
             <img
-              src="/main-logo.png"
+              src="/logo-main.png"
               alt="Logo"
-              className="w-48 h-auto"
+              className="w-64 h-auto"
             />
           </Link>
         </div>
@@ -71,8 +71,8 @@ export default function Header() {
 
         {/* Contact Info */}
         <div className="hidden md:flex items-center text-cards font-bold">
-          <a href="mailto:info@basoftech.com" className="hover:text-white">
-            info@basoftech.com
+          <a href="mailto:contact@basoftech.com" className="hover:text-white">
+            contact@basoftech.com
           </a>
         </div>
 
@@ -165,10 +165,10 @@ export default function Header() {
             </Link>
 
             <a
-              href="mailto:info@basoftech.com"
+              href="mailto:contact@basoftech.com"
               className="text-cards font-bold hover:text-white"
             >
-              info@basoftech.com
+              contact@basoftech.com
             </a>
           </div> 
         </div>

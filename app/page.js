@@ -3,8 +3,8 @@ import { useState, useEffect, lazy, Suspense } from "react";
 import Header from "./Components/Navbar";
 import WarpIntro from "./Components/WrapIntro";
 
-// Lazy load components to improve initial load time
 const Hero = lazy(() => import("./Components/Hero"));
+const Packages = lazy(() => import("./Components/Packages"))
 const Think = lazy(() => import("./Components/Think"));
 const Identity = lazy(() => import("./Components/Identity"));
 const WhyChooseUs = lazy(() => import("./Components/WhyChooseUs"));
@@ -14,7 +14,6 @@ const Testimonials = lazy(() => import("./Components/Testimonials"));
 const Connect = lazy(() => import("./Components/Connect"));
 const Footer = lazy(() => import("./Components/Footer"));
 
-// Empty fallback to avoid showing loaders
 const EmptyFallback = () => null;
 
 export default function Home() {
@@ -117,6 +116,12 @@ export default function Home() {
           <div id="identity" className="observe-section">
             <Suspense fallback={<EmptyFallback />}>
               {visibleSections.identity && <Identity />}
+            </Suspense>
+          </div>
+
+          <div id="identity" className="observe-section">
+            <Suspense fallback={<EmptyFallback />}>
+              {visibleSections.identity && <Packages />}
             </Suspense>
           </div>
           
