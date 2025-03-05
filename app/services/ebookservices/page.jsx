@@ -108,6 +108,9 @@ const page = () => {
               Ebook Services We Offer
             </h1>
           </div>
+          <div>
+            <img src='/ebooks.png' className='w-auto h-80'/>
+          </div>
         </div>
       </div>
     </section>

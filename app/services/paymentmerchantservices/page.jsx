@@ -108,6 +108,9 @@ const page = () => {
               Payment Merchant Services We Offer
             </h1>
           </div>
+          <div>
+            <img src='/payment.png' className='w-auto h-80'/>
+          </div>
         </div>
       </div>
     </section>

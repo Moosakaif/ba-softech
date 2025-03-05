@@ -107,6 +107,9 @@ const page = () => {
               Graphics Designing Services
             </h1>
           </div>
+          <div>
+            <img src='/gfx.png' className='w-auto h-80'/>
+          </div>
         </div>
       </div>
     </section>
