@@ -16,16 +16,18 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between md:space-x-16">
           <ul className="space-y-2 p-4 md:p-0 text-lg">
           <h1 className='text-cards font-bold text-2xl'>Quick Links</h1>
-            <Link href={"/"}><li data-aos="fade-down" className='hover:text-white mt-4 hover:cursor-pointer'>Home</li></Link>
+            <Link href={"/"}><li data-aos="fade-down" className='hover:text-white hover:cursor-pointer'>Home</li></Link>
             <Link href={"/services/uiuxdesigning"}><li data-aos="fade-right" className='hover:text-white hover:cursor-pointer'>Services</li></Link>
-            <Link href={"/contact"}><li data-aos="fade-up" className='hover:text-white hover:cursor-pointer'>Contact</li></Link>
+            <Link href={"/contact"}><li  className='hover:text-white  hover:cursor-pointer'>Contact</li></Link>
             {/* <Link href={"/privacypolicy"}><li  className='hover:text-white z-50 hover:cursor-pointer'>Privacy Policy</li></Link> */}
 
           </ul>
 
           <ul className="space-y-0 p-4 md:p-0 text-lg">
+          <h1 className='text-cards font-bold text-2xl'>Contact Links</h1>
+
             {/* <li data-aos="fade-down" className='hover:text-white hover:cursor-pointer'>Address</li> */}
-            <li data-aos="fade-right" className='hover:text-white hover:cursor-pointer'>+ (213)-286-5836</li>
+            <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>+ (213)-286-5836</li>
             
             <a href='mailto:contact@basoftech.com'><li data-aos="fade-left" className='hover:text-white hover:cursor-pointer'>contact@basoftech.com</li></a>
           </ul>

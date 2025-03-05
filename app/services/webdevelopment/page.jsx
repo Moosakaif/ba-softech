@@ -108,6 +108,9 @@ const page = () => {
               Web Development Services
             </h1>
           </div>
+          <div>
+            <img src='/web.png' className='w-auto h-96'/>
+          </div>
         </div>
       </div>
     </section>

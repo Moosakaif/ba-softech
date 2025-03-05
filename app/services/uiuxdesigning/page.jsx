@@ -106,6 +106,9 @@ const page = () => {
               UI/UX Designing Services
             </h1>
           </div>
+          <div>
+            <img src='/uiux.png' className='w-auto h-72'/>
+          </div>
         </div>
       </div>
     </section>
