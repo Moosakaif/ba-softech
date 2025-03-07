@@ -51,16 +51,16 @@ const page = () => {
     
         emailjs
           .send(
-            'service_vcvqcan', 
-            'template_4ela61n',
+            'service_w77h8cp', 
+            'template_i2jz2t3',
             {
               from_name: name,
-              to_email: 'support@coastalghostwriting.com',
+              to_email: 'contact@basoftech.com',
               from_email: email,
               phone,
               message,
             },
-            'TihDoLxcsdR_sDnwT'
+            'k3B55Mf9wXRT4wOU2'
           )
           .then(() => {
             alert("Your message was sent successfully!");

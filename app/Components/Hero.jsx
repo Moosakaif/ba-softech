@@ -59,7 +59,7 @@ export default function Hero() {
           phone,
           message,
         },
-        'TihDoLxcsdR_sDnwT' // Replace with your EmailJS user ID
+        'k3B55Mf9wXRT4wOU2' // Replace with your EmailJS user ID
       )
       .then(() => {
         alert('Your message has been sent successfully!');
