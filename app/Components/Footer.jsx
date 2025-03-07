@@ -9,8 +9,8 @@ const Footer = () => {
     <footer className={`${font.className} bg-black text-white  py-12 md:py-12`}>
       <div className="container mx-auto flex flex-wrap justify-evenly items-center space-y-6 md:space-y-0">
         <div className="flex flex-col items-start">
-          <img src="/logo-main.png" alt="Logo" className="w-auto h-auto sm:h-10 md:h-auto lg:h-14" style={{ height: '120px', width: "200px" }} />
-            <p className='text-white max-w-md'>B.A Softech is an innovation delivery company that specializes in team augmentation for digital projects. We work with you to innovate your ideas and execute them to perfection.</p>
+          <img src="/log.png" alt="Logo" className="w-auto h-auto sm:h-10 md:h-auto lg:h-14" style={{ height: '90px', width: "300px" }} />
+            <p className='text-white mt-4 max-w-md'>B.A Softech is an innovation delivery company that specializes in team augmentation for digital projects. We work with you to innovate your ideas and execute them to perfection.</p>
         </div>
 
         <div className="flex flex-wrap justify-between md:space-x-16">
