@@ -107,7 +107,7 @@ const page = () => {
             </h1>
           </div>
           <div>
-            <img src='/uiux.png' className='w-auto h-72'/>
+            <img src='/uiux.png' className='w-[60rem] ml-12 h-96'/>
           </div>
         </div>
       </div>

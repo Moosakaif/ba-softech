@@ -111,7 +111,7 @@ const page = () => {
             </h1>
           </div>
           <div>
-            <img src='/app.png' className='w-auto h-80'/>
+            <img src='/app.png' className='w-[60rem] ml-12 h-96'/>
           </div>
         </div>
       </div>
