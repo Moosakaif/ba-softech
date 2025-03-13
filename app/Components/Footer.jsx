@@ -28,7 +28,7 @@ const Footer = () => {
 
             {/* <li data-aos="fade-down" className='hover:text-white hover:cursor-pointer'>Address</li> */}
             <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>+ (213)-286-5836</li>
-            <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>5141 Fawn Hollow WayAntelope, CA 95843, USA</li>
+            <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>5141 Fawn Hollow Way Antelope, CA 95843, USA</li>
             
             <a href='mailto:contact@basoftech.com'><li  className='hover:text-white hover:cursor-pointer'>contact@basoftech.com</li></a>
           </ul>
