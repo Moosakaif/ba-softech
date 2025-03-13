@@ -108,8 +108,8 @@ const page = () => {
               Web Development Services
             </h1>
           </div>
-          <div>
-            <img src='/web.png' className='w-auto h-96'/>
+          <div className='flex justify-center items-center'>
+            <img src='/web.png' className='w-auto h-60 md:h-96'/>
           </div>
         </div>
       </div>

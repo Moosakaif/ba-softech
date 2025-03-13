@@ -107,8 +107,8 @@ const page = () => {
               Graphics Designing Services
             </h1>
           </div>
-          <div>
-            <img src='/gfx.png' className='w-[60rem] ml-12 h-96'/>
+          <div className='flex justify-center items-center'>
+            <img src='/gfx.png' className='w-[70rem] md:ml-12 h-60 md:h-96'/>
           </div>
         </div>
       </div>

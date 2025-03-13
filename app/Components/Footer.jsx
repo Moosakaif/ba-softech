@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className="flex flex-wrap justify-between md:space-x-16">
           <ul className="space-y-2 p-4 md:p-0 text-lg">
-          <h1 className='text-cards font-bold text-2xl'>Quick Links</h1>
+          <h1 className='text-cards font-bold text-xl'>Quick Links</h1>
             <Link href={"/"}><li data-aos="fade-down" className='hover:text-white hover:cursor-pointer'>Home</li></Link>
             <Link href={"/services/uiuxdesigning"}><li data-aos="fade-right" className='hover:text-white hover:cursor-pointer'>Services</li></Link>
             <Link href={"/contact"}><li  className='hover:text-white  hover:cursor-pointer'>Contact</li></Link>
@@ -24,15 +24,18 @@ const Footer = () => {
           </ul>
 
           <ul className="space-y-0 p-4 md:p-0 text-lg">
-          <h1 className='text-cards font-bold text-2xl'>Contact Links</h1>
+          <h1 className='text-cards font-bold text-xl'>Contact Links</h1>
 
             {/* <li data-aos="fade-down" className='hover:text-white hover:cursor-pointer'>Address</li> */}
             <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>+ (213)-286-5836</li>
+            <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>5141 Fawn Hollow WayAntelope, CA 95843, USA</li>
             
-            <a href='mailto:contact@basoftech.com'><li data-aos="fade-left" className='hover:text-white hover:cursor-pointer'>contact@basoftech.com</li></a>
+            <a href='mailto:contact@basoftech.com'><li  className='hover:text-white hover:cursor-pointer'>contact@basoftech.com</li></a>
           </ul>
 
-          {/* <ul className="space-y-0 text-lg p-4 pt-8 text-center md:text-left md:p-0 max-w-sm">
+          <ul className="space-y-2 text-lg p-4 pt-8 text-center md:text-left md:p-0 max-w-sm">
+          <h1 className='text-cards font-bold text-xl'>Social Links</h1>
+
             <li className="flex items-center space-x-2">
               <FaFacebook size={20} />
               <span>Facebook</span>
@@ -45,7 +48,7 @@ const Footer = () => {
               <FaInstagram size={20} />
               <span>Instagram</span>
             </li>
-          </ul> */}
+          </ul>
         </div>
       </div>
     </footer>

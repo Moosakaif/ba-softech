@@ -52,7 +52,7 @@ const ParticlesCX = () => {
         left: 0,
         width: "100%",
         height: "100%",
-        zIndex: 0,
+        zIndex: 1,
       }}
     >
       {init && <Particles id="tsparticles" options={options} />}

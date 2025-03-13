@@ -122,8 +122,11 @@ export default function Header() {
             >
               Home
             </Link>
+            <Link href="/about" className="text-white z-50 hover:text-cards transition">
+            About
+          </Link>
 
-            <div>
+            <div className='z-50'>
               <button
                 onClick={() => setIsServicesOpen(!isServicesOpen)}
                 className="w-full text-left z-50 flex items-center text-white justify-between"
@@ -144,7 +147,7 @@ export default function Header() {
                 </svg>
               </button>
               {isServicesOpen && (
-                <div className="pl-4 z-50 mt-2 space-y-2">
+                <div className="pl-4 mt-2 space-y-2">
                   {services.map((service, index) => (
                     <Link
                       key={index}
