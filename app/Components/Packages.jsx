@@ -150,13 +150,13 @@ const Packages = () => {
         title: "WEB CONTENT PACKAGE",
         price: "$200",
         description: "SEO-optimized blog content.",
-        features: ["Some Salient Features of Our Website Copywriting Services are:", "Creative, Well-Written and 100% Original Content", "According To Your Exact Requirements","FREE Meta details – With each custom page, we will provide a catchy title, keywords and page description.","SEO friendly - Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","Quick Turnaround Time – Within 3 business days!!","Unlimited Revisions - 100% Satisfaction Guaranteed!","Proofing by our in-house experts – 0% mistakes guarantee!","100% Satisfaction Guarantee","100% Money Back Guarantee*"],
+        features: ["Some Salient Features of Our Website Copywriting Services are:", "Creative, Well-Written and 100% Original Content", "According To Your Exact Requirements","FREE Meta details – With each custom page, we will provide a catchy title, keywords and page description.","SEO friendly - Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","Quick Turnaround Time – Within 3 business days!!","Unlimited Revisions - 100% Satisfaction Guaranteed!","Proofing by our in-house experts – 0% mistakes guarantee!","100% Satisfaction Guarantee"],
       },
       {
         title: "ARTICLE WRITING PACKAGE",
         price: "$1499",
         description: "Professional website content.",
-        features: ["1 Creative, Fresh & Well-Written Article", "By 1 Professional Copywriter", "Industry Specified Expert Copywriter","400 Words Per Page","3 to 5 Business Days Rotation","5 Revisions","According To Your Exact Requirements","Written on Your Specified Topic/Keyword","Proofing by our in-house experts","Free Submission on any article marketing directories /blog (If required)","SEO friendly – Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","100% Ownership Rights","100% Original Content","100% Satisfaction Guarantee","100% Money Back Guarantee*"],
+        features: ["1 Creative, Fresh & Well-Written Article", "By 1 Professional Copywriter", "Industry Specified Expert Copywriter","400 Words Per Page","3 to 5 Business Days Rotation","5 Revisions","According To Your Exact Requirements","Written on Your Specified Topic/Keyword","Proofing by our in-house experts","Free Submission on any article marketing directories /blog (If required)","SEO friendly – Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","100% Ownership Rights","100% Original Content","100% Satisfaction Guarantee"],
       },
       {
         title: "BLOG WRITING PACKAGE",
@@ -321,13 +321,13 @@ const Packages = () => {
         title: "WEB CONTENT PACKAGE",
         price: "Rs. 12,500",
         description: "SEO-optimized blog content.",
-        features: ["Some Salient Features of Our Website Copywriting Services are:", "Creative, Well-Written and 100% Original Content", "According To Your Exact Requirements","FREE Meta details – With each custom page, we will provide a catchy title, keywords and page description.","SEO friendly - Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","Quick Turnaround Time – Within 3 business days!!","Unlimited Revisions - 100% Satisfaction Guaranteed!","Proofing by our in-house experts – 0% mistakes guarantee!","100% Satisfaction Guarantee","100% Money Back Guarantee*"],
+        features: ["Some Salient Features of Our Website Copywriting Services are:", "Creative, Well-Written and 100% Original Content", "According To Your Exact Requirements","FREE Meta details – With each custom page, we will provide a catchy title, keywords and page description.","SEO friendly - Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","Quick Turnaround Time – Within 3 business days!!","Unlimited Revisions - 100% Satisfaction Guaranteed!","Proofing by our in-house experts – 0% mistakes guarantee!","100% Satisfaction Guarantee"],
       },
       {
         title: "ARTICLE WRITING PACKAGE",
         price: "Rs. 17,500",
         description: "Professional website content.",
-        features: ["1 Creative, Fresh & Well-Written Article", "By 1 Professional Copywriter", "Industry Specified Expert Copywriter","400 Words Per Page","3 to 5 Business Days Rotation","5 Revisions","According To Your Exact Requirements","Written on Your Specified Topic/Keyword","Proofing by our in-house experts","Free Submission on any article marketing directories /blog (If required)","SEO friendly – Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","100% Ownership Rights","100% Original Content","100% Satisfaction Guarantee","100% Money Back Guarantee*"],
+        features: ["1 Creative, Fresh & Well-Written Article", "By 1 Professional Copywriter", "Industry Specified Expert Copywriter","400 Words Per Page","3 to 5 Business Days Rotation","5 Revisions","According To Your Exact Requirements","Written on Your Specified Topic/Keyword","Proofing by our in-house experts","Free Submission on any article marketing directories /blog (If required)","SEO friendly – Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","100% Ownership Rights","100% Original Content","100% Satisfaction Guarantee"],
       },
       {
         title: "BLOG WRITING PACKAGE",
