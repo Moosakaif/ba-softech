@@ -6,6 +6,15 @@ import Link from "next/link";
 
 const Packages = () => {
   const [tab, setTab] = useState("Logo Design");
+  const [region, setRegion] = useState("USA");
+
+  const changeRegion = () => {
+    setRegion("Pakistan")
+  }
+
+  const changeBackRegion = () => {
+    setRegion("USA")
+  }
 
   const packageDetails = {
     "Logo Design": [
@@ -28,7 +37,7 @@ const Packages = () => {
         features: ["8 Custom Logo Concepts", "3 Designers", "Unlimited Revisions", "Stationary Design", "Free MS Word Letterhead"],
       },
       {
-        title: "Website Bravo SPECIAL PACKAGE",
+        title: "BA SPECIAL PACKAGE",
         price: "$175",
         description: "Comprehensive branding solution.",
         features: ["UNLIMITED Logo Design Concepts", "By 5 Award Winning Designers", "Stationary Design (Business Card, Letterhead, Envelope)","Icon Design","UNLIMITED Revisions","FREE MS Word Letterhead","Free Email Signature","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Satisfaction Guarantee","100% Unique Design Guarantee","48 to 72 hours TAT"],
@@ -138,7 +147,7 @@ const Packages = () => {
     ],
     "Content Writing": [
       {
-        title: "WEB CONTANT PACKAGE",
+        title: "WEB CONTENT PACKAGE",
         price: "$200",
         description: "SEO-optimized blog content.",
         features: ["Some Salient Features of Our Website Copywriting Services are:", "Creative, Well-Written and 100% Original Content", "According To Your Exact Requirements","FREE Meta details – With each custom page, we will provide a catchy title, keywords and page description.","SEO friendly - Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","Quick Turnaround Time – Within 3 business days!!","Unlimited Revisions - 100% Satisfaction Guaranteed!","Proofing by our in-house experts – 0% mistakes guarantee!","100% Satisfaction Guarantee","100% Money Back Guarantee*"],
@@ -161,7 +170,7 @@ const Packages = () => {
         title: "STARTUP FIRE PACKAGE",
         price: "$320",
         description: "For improving engagement.",
-        features: ["3 postings per week (per network) Facebook + Twitter + Instagram + Google+", "Content Creation", "Business Page Optimization","Social Media Strategy (Overview)","Facebook Likes Campaign","Monthly Progress report","Copy Writing"],
+        features: ["3 postings per week (per network) Facebook + Twitter + Instagram + Google+", "Content Creation", "Business Page Optimization","Social Media Strategy (Overview)","Facebook Likes Campaign","Monthly Progress report"],
       },
       {
         title: "EXELLANCE DREAM PACKAGE",
@@ -309,7 +318,7 @@ const Packages = () => {
     ],
     "Content Writing": [
       {
-        title: "WEB CONTANT PACKAGE",
+        title: "WEB CONTENT PACKAGE",
         price: "Rs. 12,500",
         description: "SEO-optimized blog content.",
         features: ["Some Salient Features of Our Website Copywriting Services are:", "Creative, Well-Written and 100% Original Content", "According To Your Exact Requirements","FREE Meta details – With each custom page, we will provide a catchy title, keywords and page description.","SEO friendly - Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","Quick Turnaround Time – Within 3 business days!!","Unlimited Revisions - 100% Satisfaction Guaranteed!","Proofing by our in-house experts – 0% mistakes guarantee!","100% Satisfaction Guarantee","100% Money Back Guarantee*"],
@@ -332,7 +341,7 @@ const Packages = () => {
         title: "STARTUP FIRE PACKAGE",
         price: "Rs. 89,600",
         description: "For improving engagement.",
-        features: ["3 postings per week (per network) Facebook + Twitter + Instagram + Google+", "Content Creation", "Business Page Optimization","Social Media Strategy (Overview)","Facebook Likes Campaign","Monthly Progress report","Copy Writing"],
+        features: ["3 postings per week (per network) Facebook + Twitter + Instagram + Google+", "Content Creation", "Business Page Optimization","Social Media Strategy (Overview)","Facebook Likes Campaign","Monthly Progress report"],
       },
       {
         title: "EXELLANCE DREAM PACKAGE",
@@ -352,6 +361,10 @@ const Packages = () => {
   return (
     <section className={`${font.className} flex flex-col text-white justify-center items-center p-12 bg-black z-50`}>
       <h1 className="text-2xl text-center md:text-5xl text-cards font-bold">See Our Packages</h1>
+      <div className="flex space-x-4 justify-center items-center mt-8">
+        <button onClick={changeBackRegion} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "USA" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>USA</button>
+        <button onClick={changeRegion} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "Pakistan" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>Pakistan</button>
+      </div>
       <div className="flex flex-wrap justify-center gap-4 pt-12 text-lg">
         {Object.keys(packageDetails).map((category) => (
           <button
@@ -365,6 +378,7 @@ const Packages = () => {
           </button>
         ))}
       </div>
+      {region == "USA" && (
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {packageDetails[tab]?.map((pkg, index) => (
           <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
@@ -384,6 +398,28 @@ const Packages = () => {
           </div>
         ))}
       </div>
+      )}
+      {region == "Pakistan" && (
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        {packageDetailsPkr[tab]?.map((pkg, index) => (
+          <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
+            <h2 className="text-xl font-light">{pkg.title}</h2>
+            <div className="flex flex-col justify-center items-center">
+              <p className="font-bold mt-5 text-xs">Starting from</p>
+              <p className="text-3xl text-center  text-yellow-400 font-extrabold">{pkg.price}</p>
+              <p className="text-xs text-center mt-4 text-black">Suitable for potential super-startups and brand revamps for companies.</p>
+              <Link href="/contact"><button className="text-black mt-6 text-center bg-cards px-6 py-4 rounded-md">Let's Start</button></Link>
+              <p className="text-sm pt-5 text-black">{pkg.description}</p>
+              <div className="mt-4 max-h-40 overflow-y-auto text-sm space-y-3 text-left text-black list-disc ">
+                {pkg.features.map((feature, i) => (
+                  <p key={i}>{feature}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      )}
     </section>
   );
 };
