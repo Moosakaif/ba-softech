@@ -54,9 +54,26 @@ export default function RootLayout({ children }) {
   }, []);
 
   const isHomePage = pathname === '/';
+  
+  // Dynamic page title based on pathname
+  const getPageTitle = () => {
+    if (isHomePage) return "BA Softech | Home";
+    
+    // Convert pathname to title format (e.g., '/contact' → 'Contact')
+    const pageName = pathname.substring(1); // Remove leading slash
+    const formattedPageName = pageName
+      ? pageName.charAt(0).toUpperCase() + pageName.slice(1)
+      : "";
+    
+    return `BA Softech | ${formattedPageName}`;
+  };
 
   return (
     <html lang="en">
+      <head>
+        <title>{getPageTitle()}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >
