@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className={`${font.className} bg-black text-white  py-12 md:py-12`}>
       <div className="container mx-auto flex flex-wrap justify-evenly items-center space-y-6 md:space-y-0">
         <div className="flex flex-col items-start">
-          <img src="/log.png" alt="Logo" className="w-auto h-auto sm:h-10 md:h-auto lg:h-14" style={{ height: '90px', width: "300px" }} />
+          <img src="/new-logo.png" alt="Logo" className="w-auto h-auto sm:h-10 md:h-auto lg:h-14" style={{ height: '160px', width: "300px" }} />
             <p className='text-white mt-4 max-w-md'>B.A Softech is an innovation delivery company that specializes in team augmentation for digital projects. We work with you to innovate your ideas and execute them to perfection.</p>
         </div>
 
@@ -34,21 +34,26 @@ const Footer = () => {
             <a href='mailto:contact@basoftech.com'><li  className='hover:text-white hover:cursor-pointer'>contact@basoftech.com</li></a>
           </ul>
 
-          <ul className="space-y-2 text-lg p-4 pt-8 text-center md:text-left md:p-0 max-w-sm">
+          <ul className="space-y-2 text-lg p-4 pt-8 text-center md:text-left z-50 md:p-0 max-w-sm">
           <h1 className='text-cards font-bold text-xl'>Social Links</h1>
-
+          
             <li className="flex items-center space-x-2">
               <FaFacebook size={20} />
               <span>Facebook</span>
             </li>
-            <li className="flex items-center space-x-2">
+          
+          <Link href="https://www.linkedin.com/company/ba-softech/">
+            <li className="flex items-center cursor-pointer space-x-2">
               <FaLinkedin size={20} />
               <span>LinkedIn</span>
             </li>
+            </Link>
+            <Link href="https://www.instagram.com/basoftech/">
             <li className="flex items-center space-x-2">
               <FaInstagram size={20} />
               <span>Instagram</span>
             </li>
+            </Link>
           </ul>
         </div>
       </div>
