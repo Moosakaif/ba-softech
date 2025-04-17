@@ -73,7 +73,7 @@ export default function Header() {
         </div>
 
         {/* Contact Info */}
-        <div className="hidden md:flex items-center text-cards font-bold">
+        <div className="hidden z-50 md:flex items-center text-cards font-bold">
           <a href="mailto:contact@basoftech.com" className="hover:text-white">
             contact@basoftech.com
           </a>

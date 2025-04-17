@@ -53,7 +53,7 @@ const Think = () => {
             expertise spans a wide range of developmental projects, from UI/UX
             design to web or mobile development.
           </p>
-          <button onClick={openModal} data-aos="fade-left" className="btn-primary bg-cards text-black hover:text-white hover:bg-card1 mt-6">
+          <button onClick={openModal} data-aos="fade-left" className="btn-primary bg-cards text-black hover:bg-yellow-400 mt-6">
             Let's Connect
           </button>
           <ContactModal isOpen={isModalOpen} onClose={closeModal} />
