@@ -73,6 +73,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>{getPageTitle()}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="UaRMkghVNJyQGe04TbxWq2ZwHz8YwusRB-A7uaik9k8" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
