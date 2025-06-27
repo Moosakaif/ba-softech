@@ -49,17 +49,18 @@ const Packages = () => {
         features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","UNLIMITED Revisions", " 2 Stationary Design Sets (Business Card, Letterhead, Envelope)","Icon Design","Double Sided Flyer Design / Bi-Fold Brochure","FREE MS Word Letterhead","Free Email Signature","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
       {
-        title: "GOLD LOGO PACKAGE",
-        price: "$425",
-        description: "Comprehensive branding solution.",
-        features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","Icon Design","UNLIMITED Revisions", "2 Stationary Design Sets (Business Card, Letterhead, Envelope)","FREE MS Word Letterhead","Free Email Signature","3 Page Custom Website","2 Stock Photos","2 Banner Designs","jQuery Slider","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
-      },
-      {
         title: "ILLUSTRATION PACKAGE",
         price: "$349",
         description: "Comprehensive branding solution.",
         features: ["5 unique Illustrations", "Unlimited color Variations", "Unlimited color Variations","Unlimited Revisions","48 to 72 hours TAT","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee" , "100% Unique Design Guarantee"],
       },
+      {
+        title: "GOLD LOGO PACKAGE",
+        price: "$425",
+        description: "Comprehensive branding solution.",
+        features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","Icon Design","UNLIMITED Revisions", "2 Stationary Design Sets (Business Card, Letterhead, Envelope)","FREE MS Word Letterhead","Free Email Signature","3 Page Custom Website","2 Stock Photos","2 Banner Designs","jQuery Slider","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      
       {
         title: "MASCOT PACKAGE",
         price: "$499",
