@@ -217,6 +217,22 @@ This approach ensures transparency and builds trust with our customers.
 You always have the right to accept or decline our offerings.
 We strictly follow this policy to respect your decisions and maintain ethical practices."
                 </p>
+                <h2 className="text-5xl font-oswald text-cards mb-6 p-4">
+                    Payment Policy
+                </h2>
+                <p className="text-white leading-relaxed px-4">
+               "Before project commencement, we request an advance payment of 40% to 50% of the total project cost."<br></br>
+
+"The remaining balance is due upon completion and delivery of the project."<br></br>
+
+"All payments are processed securely, and receipts are issued for every transaction.
+
+
+"
+                </p>
+                
+                
+
 
 
         </div>
