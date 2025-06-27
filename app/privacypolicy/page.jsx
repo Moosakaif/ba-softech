@@ -179,6 +179,46 @@ const page = () => {
                 <p className="text-white leading-relaxed px-4">
                 "We collect phone numbers solely to contact. Your phone number and consent will never be shared with third-party providers, advertisers, or external organizations unless explicitly required by law or to fulfill services you’ve requested (e.g., SMS delivery). All data is secured and retained only for as long as necessary. You may withdraw consent or request deletion at any time by contacting contact@basoftech.com."
                 </p>
+                <h2 className="text-5xl font-oswald text-cards mb-6 p-4">
+                    How We Contact You
+                </h2>
+                <p className="text-white leading-relaxed px-4">
+                We contact potential and current customers through:
+                </p>
+                 <h2 className="text-5xl font-oswald text-cards mb-6 p-4">
+                    Phone Calls
+                </h2>
+                <p className="text-white leading-relaxed px-4">
+               "We initiate contact with potential and existing customers through direct phone calls.
+These calls allow us to introduce our services, explain how we can help, and answer any initial questions.
+Our team ensures the conversation is informative and respectful of your time.
+Calls are made only during appropriate hours and by authorized representatives.
+The goal is to create a clear and open channel of communication with you."
+                </p>
+                <h2 className="text-5xl font-oswald text-cards mb-6 p-4">
+                    Messages
+                </h2>
+                <p className="text-white leading-relaxed px-4">
+               "If we’re unable to reach you by phone, we may follow up with an SMS or WhatsApp message.
+These messages provide a short introduction to our services and invite you to respond if interested.
+They’re designed to be brief, clear, and non-intrusive.
+You are free to reply at your convenience or ignore them if you're not interested.
+We ensure our messages are professional and sent only when necessary.
+
+"
+                </p>
+                 <h2 className="text-5xl font-oswald text-cards mb-6 p-4">
+                    Consent
+                </h2>
+                 <p className="text-white leading-relaxed px-4">
+               "We never provide or initiate any services without your explicit consent.
+Consent may be given through a voice call, message reply, or written agreement.
+This approach ensures transparency and builds trust with our customers.
+You always have the right to accept or decline our offerings.
+We strictly follow this policy to respect your decisions and maintain ethical practices."
+                </p>
+
+
         </div>
         <Footer/>
     </div>

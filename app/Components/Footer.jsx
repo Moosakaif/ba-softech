@@ -19,7 +19,7 @@ const Footer = () => {
             <Link href={"/"}><li data-aos="fade-down" className='hover:text-white hover:cursor-pointer'>Home</li></Link>
             <Link href={"/services/uiuxdesigning"}><li data-aos="fade-right" className='hover:text-white hover:cursor-pointer'>Services</li></Link>
             <Link href={"/contact"}><li  className='hover:text-white  hover:cursor-pointer'>Contact</li></Link>
-            {/* <Link href={"/privacypolicy"}><li  className='hover:text-white z-50 hover:cursor-pointer'>Privacy Policy</li></Link> */}
+            <Link href={"/privacypolicy"}><li  className='hover:text-white z-50 hover:cursor-pointer'>Privacy Policy</li></Link>
 
           </ul>
 
