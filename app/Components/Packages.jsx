@@ -536,7 +536,57 @@ const Packages = () => {
     ],
   };
   const packageDetailsCan = {
-    
+    "Logo Design": [
+      {
+        title: "BASIC LOGO PACKAGE",
+        price: "$30",
+        description: "Ideal for startups and brand revamps.",
+        features: ["3 Custom Logo Concepts", "1 Designer", "4 Revisions", "24-48 hours TAT", "100% Unique Design Guarantee"],
+      },
+      {
+        title: "START UP LOGO PACKAGE",
+        price: "$60",
+        description: "Perfect for growing businesses.",
+        features: ["5 Custom Logo Concepts", "2 Designers", "Unlimited Revisions", "48-72 hours TAT", "Final Files in AI, PSD, PNG, PDF"],
+      },
+      {
+        title: "LOGO GROWUP PACKAGE",
+        price: "$85",
+        description: "For established businesses.",
+        features: ["8 Custom Logo Concepts", "3 Designers", "Unlimited Revisions", "Stationary Design", "Free MS Word Letterhead"],
+      },
+      {
+        title: "BA SPECIAL PACKAGE",
+        price: "$175",
+        description: "Comprehensive branding solution.",
+        features: ["UNLIMITED Logo Design Concepts", "By 5 Award Winning Designers", "Stationary Design (Business Card, Letterhead, Envelope)","Icon Design","UNLIMITED Revisions","FREE MS Word Letterhead","Free Email Signature","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Satisfaction Guarantee","100% Unique Design Guarantee","48 to 72 hours TAT"],
+      },
+      {
+        title: "BUSINESS LOGO PACKAGE",
+        price: "$245",
+        description: "Comprehensive branding solution.",
+        features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","UNLIMITED Revisions", " 2 Stationary Design Sets (Business Card, Letterhead, Envelope)","Icon Design","Double Sided Flyer Design / Bi-Fold Brochure","FREE MS Word Letterhead","Free Email Signature","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      {
+        title: "ILLUSTRATION PACKAGE",
+        price: "$349",
+        description: "Comprehensive branding solution.",
+        features: ["5 unique Illustrations", "Unlimited color Variations", "Unlimited color Variations","Unlimited Revisions","48 to 72 hours TAT","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee" , "100% Unique Design Guarantee"],
+      },
+      {
+        title: "GOLD LOGO PACKAGE",
+        price: "$425",
+        description: "Comprehensive branding solution.",
+        features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","Icon Design","UNLIMITED Revisions", "2 Stationary Design Sets (Business Card, Letterhead, Envelope)","FREE MS Word Letterhead","Free Email Signature","3 Page Custom Website","2 Stock Photos","2 Banner Designs","jQuery Slider","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      
+      {
+        title: "MASCOT PACKAGE",
+        price: "$499",
+        description: "Comprehensive branding solution.",
+        features: ["3 Unique mascot Design", "2-3 Combinations", "100% Custom Illustration","Unlimited Revisions","48 to 72 hours TAT","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+    ],
 
   };
 
