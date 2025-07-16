@@ -624,7 +624,7 @@ const Packages = () => {
       )}
       {region == "Canada" && (
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-        {packageDetailsAus[tab]?.map((pkg, index) => (
+        {packageDetailsCan[tab]?.map((pkg, index) => (
           <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
             <h2 className="text-xl font-light">{pkg.title}</h2>
             <div className="flex flex-col justify-center items-center">
