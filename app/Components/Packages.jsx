@@ -535,6 +535,10 @@ const Packages = () => {
       },
     ],
   };
+  const packageDetailsCan = {
+    
+
+  };
 
   return (
     <section className={`${font.className} flex flex-col text-white justify-center items-center p-12 bg-black z-50`}>
