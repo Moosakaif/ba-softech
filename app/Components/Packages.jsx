@@ -622,7 +622,7 @@ const Packages = () => {
         ))}
       </div>
       )}
-      {region == "Australia" && (
+      {region == "Canada" && (
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {packageDetailsAus[tab]?.map((pkg, index) => (
           <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
