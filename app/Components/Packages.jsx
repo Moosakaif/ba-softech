@@ -540,7 +540,7 @@ const Packages = () => {
         <button onClick={changeBackRegion} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "USA" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>USA</button>
         <button onClick={changeRegion} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "Pakistan" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>Pakistan</button>
         <button onClick={changeRegionAus} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "Australia" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>Australia</button>
-        <button onClick={changeRegionAus} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "Australia" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>Australia</button>
+        <button onClick={changeRegionCan} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "Australia" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>Australia</button>
 
       </div>
       <div className="flex flex-wrap justify-center gap-4 pt-12 text-lg">
