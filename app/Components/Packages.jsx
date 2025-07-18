@@ -20,6 +20,12 @@ const Packages = () => {
    const changeRegionUK = () => {
     setRegion("UK")
   }
+    const changeRegionUAE = () => {
+    setRegion("UAE")
+  }
+    const changeRegionSF = () => {
+    setRegion("South Africa")
+  }
 
   const changeBackRegion = () => {
     setRegion("USA")
@@ -890,6 +896,8 @@ const Packages = () => {
         <button onClick={changeRegionAus} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "Australia" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>Australia</button>
         <button onClick={changeRegionCan} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "Canada" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>Canada</button>
         <button onClick={changeRegionUK} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "UK" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>UK</button>
+        <button onClick={changeRegionUAE} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "UAE" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>UAE</button>
+        <button onClick={changeRegionSF} className={`px-4 py-2 z-50 rounded-md transition-all duration-300 ${region == "South Africa" ? "bg-cards text-black font-bold" : "bg-gray-700 hover:bg-gray-600"}`}>South Africa</button>
 
       </div>
       <div className="flex flex-wrap justify-center gap-4 pt-12 text-lg">
