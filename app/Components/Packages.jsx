@@ -685,6 +685,26 @@ const Packages = () => {
         features: ["1 Creative, Fresh & Well-Written Article", "By 1 Professional Copywriter", "Industry Specified Expert Copywriter","400 Words Per Page","3 to 5 Business Days Rotation","5 Revisions","According To Your Exact Requirements","Written on Your Specified Topic/Keyword","Proofing by our in-house experts","Free Submission on any article marketing directories /blog (If required)","SEO friendly – Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","100% Ownership Rights","100% Satisfaction Guarantee", "Editing", "Publishing", "Designing" ],
       },
     ],
+    "Social Media": [
+      {
+        title: "STARTUP FIRE PACKAGE",
+        price: "$320",
+        description: "For improving engagement.",
+        features: ["3 postings per week (per network) Facebook + Twitter + Instagram + Google+", "Content Creation", "Business Page Optimization","Social Media Strategy (Overview)","Facebook Likes Campaign","Monthly Progress report"],
+      },
+      {
+        title: "EXELLANCE DREAM PACKAGE",
+        price: "$600",
+        description: "Complete social media management.",
+        features: ["Copywriting & Visual designs", "Business Page Optimization", "Ad Campaign Management","Spam monitoring","Monthly Progress report","5 postings per week Facebook + Twitter + Instagram + Google+","Reputation Management","Social Account Setup","Content Creation","Social Media Listening","Query and comments reply"],
+      },
+      {
+        title: "ALL IN ONE SPARK PACKAGE",
+        price: "$1000",
+        description: "Ideal for small businesses.",
+        features: ["Initial Brand Analysis", "Consumer Persona Analysis", "Competitor Analysis - Local and Nationwide","Customized Social Media Strategy","Copywriting - Team of 04 Dedicated Social Media Writers","Advertising - Team of 04 Dedicated Social Media Ads Experts","Content Plan Creation","35 Custom Designed Social Media Posts per month","Monthly Google Ads Management - Google Shopping + Google Search Campaigns","Goal Focused Facebook Ad Campaigns","Community Management - All Community Based Social Networks","Page Management (Facebook, Instagram, Linked In, and Twitter)","Page Spam Management - all social media platforms","Engagement Tracking Setup","Facebook Shop Creation","Detailed Page Moderation - All Social Networks","Strategic Ad Campaign Optimization & A/B Testing","Social Media Listening","Monthly Analytics Reporting - KPI Comparison and more","Social Media Listening"],
+      },
+    ],
   };
 
   return (
