@@ -796,7 +796,7 @@ const Packages = () => {
      "Animations": [
       {
         title: "2D STANDARD LOGO ANIMATION",
-        price: "$155",
+        price: "55",
         description: "Simple logo animations.",
         features: ["3 custom and Unique design", "2 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","3 Revisions","Animation and Effects","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
       },
@@ -817,6 +817,26 @@ const Packages = () => {
         price: "$299",
         description: "High-end animation package.",
         features: ["UNLIMITED custom and Unique design", "UNLIMITED Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and VFX","Music and foley","All source files format Included Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+    ],
+    "Branding": [
+      {
+        title: "STARTUP COLLATERAL PACKAGE",
+        price: "$99.99",
+        description: "Basic branding essentials.",
+        features: ["2 Stationery Design Set", "FREE Fax Template", "Print Ready Formats","UNLIMITED Revisions","100% Satisfaction Guarantee"],
+      },
+      {
+        title: "COLLATERAL CLASSIC PACKAGE",
+        price: "$199.99",
+        description: "Full branding package for businesses.",
+        features: ["2 Stationery Design Set", "UNLIMITED Revisions", "Flyer Design","Brochure Design (Bi-fold/Tri-fold)","100% Satisfaction Guarantee"],
+      },
+      {
+        title: "PREMIUM COLLATERAL PACKAGE",
+        price: "$399.99",
+        description: "Complete identity package.",
+        features: ["Hat Design", "Invoice Design", "Email Signature Design","2 Stationery Design Set","Packaging Design","UNLIMITED Revisions","T-Shirt Design","T-Shirt Design"],
       },
     ],
   };
@@ -911,6 +931,27 @@ const Packages = () => {
       {region == "Canada" && (
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {packageDetailsCan[tab]?.map((pkg, index) => (
+          <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
+            <h2 className="text-xl font-light">{pkg.title}</h2>
+            <div className="flex flex-col justify-center items-center">
+              <p className="font-bold mt-5 text-xs">Starting from</p>
+              <p className="text-3xl text-center  text-yellow-400 font-extrabold">{pkg.price}</p>
+              <p className="text-xs text-center mt-4 text-black">Suitable for potential super-startups and brand revamps for companies.</p>
+              <Link href="/contact"><button className="text-black mt-6 text-center bg-cards px-6 py-4 rounded-md">Let's Start</button></Link>
+              <p className="text-sm pt-5 text-black">{pkg.description}</p>
+              <div className="mt-4 max-h-40 overflow-y-auto text-sm space-y-3 text-left text-black list-disc ">
+                {pkg.features.map((feature, i) => (
+                  <p key={i}>{feature}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      )}
+      {region == "UK" && (
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        {packageDetailsUK[tab]?.map((pkg, index) => (
           <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
             <h2 className="text-xl font-light">{pkg.title}</h2>
             <div className="flex flex-col justify-center items-center">
