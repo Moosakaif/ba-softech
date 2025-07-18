@@ -884,6 +884,91 @@ const Packages = () => {
         description: "Ideal for small businesses.",
         features: ["Initial Brand Analysis", "Consumer Persona Analysis", "Competitor Analysis - Local and Nationwide","Customized Social Media Strategy","Copywriting - Team of 04 Dedicated Social Media Writers","Advertising - Team of 04 Dedicated Social Media Ads Experts","Content Plan Creation","35 Custom Designed Social Media Posts per month","Monthly Google Ads Management - Google Shopping + Google Search Campaigns","Goal Focused Facebook Ad Campaigns","Community Management - All Community Based Social Networks","Page Management (Facebook, Instagram, Linked In, and Twitter)","Page Spam Management - all social media platforms","Engagement Tracking Setup","Facebook Shop Creation","Detailed Page Moderation - All Social Networks","Strategic Ad Campaign Optimization & A/B Testing","Social Media Listening","Monthly Analytics Reporting - KPI Comparison and more","Social Media Listening"],
       },
+    ],  
+    "Website Development": [
+      {
+        title: "BASIC WEBSITE PACKAGE",
+        price: "$199",
+        description: "Ideal for small businesses and startups.",
+        features: ["2 Stock Images", "3 Pages Website", "1 jQuery Slider Banner", "Contact/Query Form", "Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      {
+        title: "START UP WEBSITE PACKAGE",
+        price: "$395",
+        description: "Suitable for businesses looking for expansion.",
+        features: ["5 Stock Photos", "5 Pages Website", "3 Banner Design", "1 jQuery Slider Banner", "FREE Google Friendly Sitemap","Complete W3C Certified HTML","48 to 72 hours TAT","100% Satisfaction Guarantee","100% Unique Design Guarantee" , "Mobile Responsive will be Additional $200*","CMS will be Additional $250*"],
+      },
+      {
+        title: "PROFESSIONAL WEBSITE PACKAGE",
+        price: "$844",
+        description: "Best for online stores.",
+        features: ["10 Unique Pages Website", "CMS / Admin Panel Support", "8 Stock images", "5 Banner Designs", "1 jQuery Slider Banner","FREE Google Friendly Sitemap","Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee", "100% Unique Design Guarantee","Mobile Responsive will be Additional $200*"],
+      },
+      {
+        title: "ELITE WEBSITE PACKAGE",
+        price: "$1399",
+        description: "Complete web solution.",
+        features: ["Upto 15 Unique Pages Website", "Conceptual and Dynamic Website", "Mobile Responsive", "Online Reservation/Appointment Tool (Optional)", "Online Payment Integration (Optional)","Custom Forms","Lead Capturing Forms (Optional)","Striking Hover Effects","Newsletter Subscription (Optional)","Newsfeed Integration","Social Media Integration","Search Engine Submission","5 Stock Photos","3 Unique Banner Design","1 jQuery Slider Banner","Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      {
+        title: "BUSINESS WEBSITE PACKAGE",
+        price: "$2345",
+        description: "Complete web solution.",
+        features: ["30 Seconds 2D Explainer Video", "Voice - Over & Sound Effects", "Professional Script Writing", "Storyboard", "SEO Meta Tags","Custom Made, Interactive, Dynamic & High End Design","Custom WP (or) Custom PHP Development","1 jQuery Slider Banner","Up to 10 Custom Made Banner Designs","10 Stock Images","Unlimited Revisions","Special Hoover Effects","Content Management System (CMS)","Online Appointment","Online Payment Integration (Optional)","Multi Lingual (Optional)","Custom Dynamic Forms (Optional)","Signup Area (For Newsletters, Offers etc.)","Search Bar","Live Feeds of Social Networks Integration (Optional)","Mobile Responsive","FREE 5 Years Domain Name","Free Google Friendly Sitemap","Search Engine Submission","Complete W3C Certified HTML","Industry Specified Team of Expert Designers and Developers","Complete Deployment","Dedicated Accounts Manager","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+    ],
+  };
+  const packageDetailsUAE = {
+       "Logo Design": [
+      {
+        title: "BASIC LOGO PACKAGE",
+        price: "$30",
+        description: "Ideal for startups and brand revamps.",
+        features: ["3 Custom Logo Concepts", "1 Designer", "4 Revisions", "24-48 hours TAT", "100% Unique Design Guarantee"],
+      },
+      {
+        title: "START UP LOGO PACKAGE",
+        price: "$60",
+        description: "Perfect for growing businesses.",
+        features: ["5 Custom Logo Concepts", "2 Designers", "Unlimited Revisions", "48-72 hours TAT", "Final Files in AI, PSD, PNG, PDF"],
+      },
+      {
+        title: "LOGO GROWUP PACKAGE",
+        price: "$85",
+        description: "For established businesses.",
+        features: ["8 Custom Logo Concepts", "3 Designers", "Unlimited Revisions", "Stationary Design", "Free MS Word Letterhead"],
+      },
+      {
+        title: "BA SPECIAL PACKAGE",
+        price: "$175",
+        description: "Comprehensive branding solution.",
+        features: ["UNLIMITED Logo Design Concepts", "By 5 Award Winning Designers", "Stationary Design (Business Card, Letterhead, Envelope)","Icon Design","UNLIMITED Revisions","FREE MS Word Letterhead","Free Email Signature","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Satisfaction Guarantee","100% Unique Design Guarantee","48 to 72 hours TAT"],
+      },
+      {
+        title: "BUSINESS LOGO PACKAGE",
+        price: "$245",
+        description: "Comprehensive branding solution.",
+        features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","UNLIMITED Revisions", " 2 Stationary Design Sets (Business Card, Letterhead, Envelope)","Icon Design","Double Sided Flyer Design / Bi-Fold Brochure","FREE MS Word Letterhead","Free Email Signature","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      {
+        title: "ILLUSTRATION PACKAGE",
+        price: "$349",
+        description: "Comprehensive branding solution.",
+        features: ["5 unique Illustrations", "Unlimited color Variations", "Unlimited color Variations","Unlimited Revisions","48 to 72 hours TAT","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee" , "100% Unique Design Guarantee"],
+      },
+      {
+        title: "GOLD LOGO PACKAGE",
+        price: "$425",
+        description: "Comprehensive branding solution.",
+        features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","Icon Design","UNLIMITED Revisions", "2 Stationary Design Sets (Business Card, Letterhead, Envelope)","FREE MS Word Letterhead","Free Email Signature","3 Page Custom Website","2 Stock Photos","2 Banner Designs","jQuery Slider","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      
+      {
+        title: "MASCOT PACKAGE",
+        price: "$499",
+        description: "Comprehensive branding solution.",
+        features: ["3 Unique mascot Design", "2-3 Combinations", "100% Custom Illustration","Unlimited Revisions","48 to 72 hours TAT","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
     ],
   };
 
@@ -1000,6 +1085,48 @@ const Packages = () => {
       {region == "UK" && (
       <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         {packageDetailsUK[tab]?.map((pkg, index) => (
+          <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
+            <h2 className="text-xl font-light">{pkg.title}</h2>
+            <div className="flex flex-col justify-center items-center">
+              <p className="font-bold mt-5 text-xs">Starting from</p>
+              <p className="text-3xl text-center  text-yellow-400 font-extrabold">{pkg.price}</p>
+              <p className="text-xs text-center mt-4 text-black">Suitable for potential super-startups and brand revamps for companies.</p>
+              <Link href="/contact"><button className="text-black mt-6 text-center bg-cards px-6 py-4 rounded-md">Let's Start</button></Link>
+              <p className="text-sm pt-5 text-black">{pkg.description}</p>
+              <div className="mt-4 max-h-40 overflow-y-auto text-sm space-y-3 text-left text-black list-disc ">
+                {pkg.features.map((feature, i) => (
+                  <p key={i}>{feature}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      )}
+      {region == "UAE" && (
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        {packageDetailsUAE[tab]?.map((pkg, index) => (
+          <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
+            <h2 className="text-xl font-light">{pkg.title}</h2>
+            <div className="flex flex-col justify-center items-center">
+              <p className="font-bold mt-5 text-xs">Starting from</p>
+              <p className="text-3xl text-center  text-yellow-400 font-extrabold">{pkg.price}</p>
+              <p className="text-xs text-center mt-4 text-black">Suitable for potential super-startups and brand revamps for companies.</p>
+              <Link href="/contact"><button className="text-black mt-6 text-center bg-cards px-6 py-4 rounded-md">Let's Start</button></Link>
+              <p className="text-sm pt-5 text-black">{pkg.description}</p>
+              <div className="mt-4 max-h-40 overflow-y-auto text-sm space-y-3 text-left text-black list-disc ">
+                {pkg.features.map((feature, i) => (
+                  <p key={i}>{feature}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+      )}
+      {region == "South Africa" && (
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        {packageDetailsSF[tab]?.map((pkg, index) => (
           <div key={index} className="p-8 z-50 bg-gray-100 text-black max-h-[38rem] overflow-y-scroll rounded-2xl shadow-lg">
             <h2 className="text-xl font-light">{pkg.title}</h2>
             <div className="flex flex-col justify-center items-center">
