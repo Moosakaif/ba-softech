@@ -761,6 +761,64 @@ const Packages = () => {
         features: ["3 Unique mascot Design", "2-3 Combinations", "100% Custom Illustration","Unlimited Revisions","48 to 72 hours TAT","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
     ],
+    "Website Development": [
+      {
+        title: "BASIC WEBSITE PACKAGE",
+        price: "$199",
+        description: "Ideal for small businesses and startups.",
+        features: ["2 Stock Images", "3 Pages Website", "1 jQuery Slider Banner", "Contact/Query Form", "Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      {
+        title: "START UP WEBSITE PACKAGE",
+        price: "$395",
+        description: "Suitable for businesses looking for expansion.",
+        features: ["5 Stock Photos", "5 Pages Website", "3 Banner Design", "1 jQuery Slider Banner", "FREE Google Friendly Sitemap","Complete W3C Certified HTML","48 to 72 hours TAT","100% Satisfaction Guarantee","100% Unique Design Guarantee" , "Mobile Responsive will be Additional $200*","CMS will be Additional $250*"],
+      },
+      {
+        title: "PROFESSIONAL WEBSITE PACKAGE",
+        price: "$844",
+        description: "Best for online stores.",
+        features: ["10 Unique Pages Website", "CMS / Admin Panel Support", "8 Stock images", "5 Banner Designs", "1 jQuery Slider Banner","FREE Google Friendly Sitemap","Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee", "100% Unique Design Guarantee","Mobile Responsive will be Additional $200*"],
+      },
+      {
+        title: "ELITE WEBSITE PACKAGE",
+        price: "$1399",
+        description: "Complete web solution.",
+        features: ["Upto 15 Unique Pages Website", "Conceptual and Dynamic Website", "Mobile Responsive", "Online Reservation/Appointment Tool (Optional)", "Online Payment Integration (Optional)","Custom Forms","Lead Capturing Forms (Optional)","Striking Hover Effects","Newsletter Subscription (Optional)","Newsfeed Integration","Social Media Integration","Search Engine Submission","5 Stock Photos","3 Unique Banner Design","1 jQuery Slider Banner","Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+      {
+        title: "BUSINESS WEBSITE PACKAGE",
+        price: "$2345",
+        description: "Complete web solution.",
+        features: ["30 Seconds 2D Explainer Video", "Voice - Over & Sound Effects", "Professional Script Writing", "Storyboard", "SEO Meta Tags","Custom Made, Interactive, Dynamic & High End Design","Custom WP (or) Custom PHP Development","1 jQuery Slider Banner","Up to 10 Custom Made Banner Designs","10 Stock Images","Unlimited Revisions","Special Hoover Effects","Content Management System (CMS)","Online Appointment","Online Payment Integration (Optional)","Multi Lingual (Optional)","Custom Dynamic Forms (Optional)","Signup Area (For Newsletters, Offers etc.)","Search Bar","Live Feeds of Social Networks Integration (Optional)","Mobile Responsive","FREE 5 Years Domain Name","Free Google Friendly Sitemap","Search Engine Submission","Complete W3C Certified HTML","Industry Specified Team of Expert Designers and Developers","Complete Deployment","Dedicated Accounts Manager","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
+      },
+    ],
+     "Animations": [
+      {
+        title: "2D STANDARD LOGO ANIMATION",
+        price: "$155",
+        description: "Simple logo animations.",
+        features: ["3 custom and Unique design", "2 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","3 Revisions","Animation and Effects","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+      {
+        title: "2D ADVANCE LOGO PACKAGE",
+        price: "$199",
+        description: "Short explainer video for businesses.",
+        features: ["3 custom and Unique design", "3 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and Effects","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+      {
+        title: "3D STANDARD LOGO ANIMATION",
+        price: "$245",
+        description: "Ideal for corporate storytelling.",
+        features: ["5 custom and Unique design", "5 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and VFX","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+      {
+        title: "3D ADVANCE ANIMATION",
+        price: "$299",
+        description: "High-end animation package.",
+        features: ["UNLIMITED custom and Unique design", "UNLIMITED Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and VFX","Music and foley","All source files format Included Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+    ],
   };
 
   return (
