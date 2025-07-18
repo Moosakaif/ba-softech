@@ -377,50 +377,50 @@ const Packages = () => {
     "Logo Design": [
       {
         title: "BASIC LOGO PACKAGE",
-        price: "$30",
+        price: "$46",
         description: "Ideal for startups and brand revamps.",
         features: ["3 Custom Logo Concepts", "1 Designer", "4 Revisions", "24-48 hours TAT", "100% Unique Design Guarantee"],
       },
       {
         title: "START UP LOGO PACKAGE",
-        price: "$60",
+        price: "$92",
         description: "Perfect for growing businesses.",
         features: ["5 Custom Logo Concepts", "2 Designers", "Unlimited Revisions", "48-72 hours TAT", "Final Files in AI, PSD, PNG, PDF"],
       },
       {
         title: "LOGO GROWUP PACKAGE",
-        price: "$85",
+        price: "$130",
         description: "For established businesses.",
         features: ["8 Custom Logo Concepts", "3 Designers", "Unlimited Revisions", "Stationary Design", "Free MS Word Letterhead"],
       },
       {
         title: "BA SPECIAL PACKAGE",
-        price: "$175",
+        price: "$267",
         description: "Comprehensive branding solution.",
         features: ["UNLIMITED Logo Design Concepts", "By 5 Award Winning Designers", "Stationary Design (Business Card, Letterhead, Envelope)","Icon Design","UNLIMITED Revisions","FREE MS Word Letterhead","Free Email Signature","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Satisfaction Guarantee","100% Unique Design Guarantee","48 to 72 hours TAT"],
       },
       {
         title: "BUSINESS LOGO PACKAGE",
-        price: "$245",
+        price: "$375",
         description: "Comprehensive branding solution.",
         features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","UNLIMITED Revisions", " 2 Stationary Design Sets (Business Card, Letterhead, Envelope)","Icon Design","Double Sided Flyer Design / Bi-Fold Brochure","FREE MS Word Letterhead","Free Email Signature","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
       {
         title: "ILLUSTRATION PACKAGE",
-        price: "$349",
+        price: "$534",
         description: "Comprehensive branding solution.",
         features: ["5 unique Illustrations", "Unlimited color Variations", "Unlimited color Variations","Unlimited Revisions","48 to 72 hours TAT","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee" , "100% Unique Design Guarantee"],
       },
       {
         title: "GOLD LOGO PACKAGE",
-        price: "$425",
+        price: "$650",
         description: "Comprehensive branding solution.",
         features: ["Unlimited Logo Concepts", "8 Award-Winning Designers","Icon Design","UNLIMITED Revisions", "2 Stationary Design Sets (Business Card, Letterhead, Envelope)","FREE MS Word Letterhead","Free Email Signature","3 Page Custom Website","2 Stock Photos","2 Banner Designs","jQuery Slider","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
       
       {
         title: "MASCOT PACKAGE",
-        price: "$499",
+        price: "$763",
         description: "Comprehensive branding solution.",
         features: ["3 Unique mascot Design", "2-3 Combinations", "100% Custom Illustration","Unlimited Revisions","48 to 72 hours TAT","All Final Files Format (AI, PSD, EPS, PNG, GIF, JPG, PDF)","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
@@ -428,31 +428,31 @@ const Packages = () => {
     "Website Development": [
       {
         title: "BASIC WEBSITE PACKAGE",
-        price: "$199",
+        price: "$304",
         description: "Ideal for small businesses and startups.",
         features: ["2 Stock Images", "3 Pages Website", "1 jQuery Slider Banner", "Contact/Query Form", "Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
       {
         title: "START UP WEBSITE PACKAGE",
-        price: "$395",
+        price: "$604",
         description: "Suitable for businesses looking for expansion.",
         features: ["5 Stock Photos", "5 Pages Website", "3 Banner Design", "1 jQuery Slider Banner", "FREE Google Friendly Sitemap","Complete W3C Certified HTML","48 to 72 hours TAT","100% Satisfaction Guarantee","100% Unique Design Guarantee" , "Mobile Responsive will be Additional $200*","CMS will be Additional $250*"],
       },
       {
         title: "PROFESSIONAL WEBSITE PACKAGE",
-        price: "$844",
+        price: "$1291",
         description: "Best for online stores.",
         features: ["10 Unique Pages Website", "CMS / Admin Panel Support", "8 Stock images", "5 Banner Designs", "1 jQuery Slider Banner","FREE Google Friendly Sitemap","Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee", "100% Unique Design Guarantee","Mobile Responsive will be Additional $200*"],
       },
       {
         title: "ELITE WEBSITE PACKAGE",
-        price: "$1399",
+        price: "$2140",
         description: "Complete web solution.",
         features: ["Upto 15 Unique Pages Website", "Conceptual and Dynamic Website", "Mobile Responsive", "Online Reservation/Appointment Tool (Optional)", "Online Payment Integration (Optional)","Custom Forms","Lead Capturing Forms (Optional)","Striking Hover Effects","Newsletter Subscription (Optional)","Newsfeed Integration","Social Media Integration","Search Engine Submission","5 Stock Photos","3 Unique Banner Design","1 jQuery Slider Banner","Complete W3C Certified HTML","48 to 72 hours TAT","Complete Deployment","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
       {
         title: "BUSINESS WEBSITE PACKAGE",
-        price: "$2345",
+        price: "$3587",
         description: "Complete web solution.",
         features: ["30 Seconds 2D Explainer Video", "Voice - Over & Sound Effects", "Professional Script Writing", "Storyboard", "SEO Meta Tags","Custom Made, Interactive, Dynamic & High End Design","Custom WP (or) Custom PHP Development","1 jQuery Slider Banner","Up to 10 Custom Made Banner Designs","10 Stock Images","Unlimited Revisions","Special Hoover Effects","Content Management System (CMS)","Online Appointment","Online Payment Integration (Optional)","Multi Lingual (Optional)","Custom Dynamic Forms (Optional)","Signup Area (For Newsletters, Offers etc.)","Search Bar","Live Feeds of Social Networks Integration (Optional)","Mobile Responsive","FREE 5 Years Domain Name","Free Google Friendly Sitemap","Search Engine Submission","Complete W3C Certified HTML","Industry Specified Team of Expert Designers and Developers","Complete Deployment","Dedicated Accounts Manager","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
@@ -460,25 +460,25 @@ const Packages = () => {
     "Animations": [
       {
         title: "2D STANDARD LOGO ANIMATION",
-        price: "$155",
+        price: "$237",
         description: "Simple logo animations.",
         features: ["3 custom and Unique design", "2 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","3 Revisions","Animation and Effects","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
       },
       {
         title: "2D ADVANCE LOGO PACKAGE",
-        price: "$199",
+        price: "$304",
         description: "Short explainer video for businesses.",
         features: ["3 custom and Unique design", "3 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and Effects","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
       },
       {
         title: "3D STANDARD LOGO ANIMATION",
-        price: "$245",
+        price: "$374",
         description: "Ideal for corporate storytelling.",
         features: ["5 custom and Unique design", "5 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and VFX","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
       },
       {
         title: "3D ADVANCE ANIMATION",
-        price: "$299",
+        price: "$457",
         description: "High-end animation package.",
         features: ["UNLIMITED custom and Unique design", "UNLIMITED Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and VFX","Music and foley","All source files format Included Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
       },
@@ -486,19 +486,19 @@ const Packages = () => {
     "Branding": [
       {
         title: "STARTUP COLLATERAL PACKAGE",
-        price: "$99.99",
+        price: "$152.98",
         description: "Basic branding essentials.",
         features: ["2 Stationery Design Set", "FREE Fax Template", "Print Ready Formats","UNLIMITED Revisions","100% Satisfaction Guarantee"],
       },
       {
         title: "COLLATERAL CLASSIC PACKAGE",
-        price: "$199.99",
+        price: "$305.97",
         description: "Full branding package for businesses.",
         features: ["2 Stationery Design Set", "UNLIMITED Revisions", "Flyer Design","Brochure Design (Bi-fold/Tri-fold)","100% Satisfaction Guarantee"],
       },
       {
         title: "PREMIUM COLLATERAL PACKAGE",
-        price: "$399.99",
+        price: "$611.95",
         description: "Complete identity package.",
         features: ["Hat Design", "Invoice Design", "Email Signature Design","2 Stationery Design Set","Packaging Design","UNLIMITED Revisions","T-Shirt Design","T-Shirt Design"],
       },
@@ -506,19 +506,19 @@ const Packages = () => {
     "Content Writing": [
       {
         title: "WEB CONTENT PACKAGE",
-        price: "$200",
+        price: "$306",
         description: "SEO-optimized blog content.",
         features: ["Some Salient Features of Our Website Copywriting Services are:", "Creative, Well-Written and 100% Original Content", "According To Your Exact Requirements","FREE Meta details – With each custom page, we will provide a catchy title, keywords and page description.","SEO friendly - Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","Quick Turnaround Time – Within 3 business days!!","Unlimited Revisions - 100% Satisfaction Guaranteed!","Proofing by our in-house experts – 0% mistakes guarantee!","100% Satisfaction Guarantee"],
       },
       {
         title: "ARTICLE WRITING PACKAGE",
-        price: "$1499",
+        price: "$2293",
         description: "Professional website content.",
         features: ["1 Creative, Fresh & Well-Written Article", "By 1 Professional Copywriter", "Industry Specified Expert Copywriter","400 Words Per Page","3 to 5 Business Days Rotation","5 Revisions","According To Your Exact Requirements","Written on Your Specified Topic/Keyword","Proofing by our in-house experts","Free Submission on any article marketing directories /blog (If required)","SEO friendly – Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","100% Ownership Rights","100% Original Content","100% Satisfaction Guarantee"],
       },
       {
         title: "BLOG WRITING PACKAGE",
-        price: "$2000",
+        price: "$3060",
         description: "Extensive content creation.",
         features: ["1 Creative, Fresh & Well-Written Article", "By 1 Professional Copywriter", "Industry Specified Expert Copywriter","400 Words Per Page","3 to 5 Business Days Rotation","5 Revisions","According To Your Exact Requirements","Written on Your Specified Topic/Keyword","Proofing by our in-house experts","Free Submission on any article marketing directories /blog (If required)","SEO friendly – Your keyword(s) will be placed in the title, the first & last paragraphs and throughout the web copy in a natural and fluent manner","100% Ownership Rights","100% Satisfaction Guarantee", "Editing", "Publishing", "Designing" ],
       },
@@ -526,19 +526,19 @@ const Packages = () => {
     "Social Media": [
       {
         title: "STARTUP FIRE PACKAGE",
-        price: "$320",
+        price: "$489",
         description: "For improving engagement.",
         features: ["3 postings per week (per network) Facebook + Twitter + Instagram + Google+", "Content Creation", "Business Page Optimization","Social Media Strategy (Overview)","Facebook Likes Campaign","Monthly Progress report"],
       },
       {
         title: "EXELLANCE DREAM PACKAGE",
-        price: "$600",
+        price: "$918",
         description: "Complete social media management.",
         features: ["Copywriting & Visual designs", "Business Page Optimization", "Ad Campaign Management","Spam monitoring","Monthly Progress report","5 postings per week Facebook + Twitter + Instagram + Google+","Reputation Management","Social Account Setup","Content Creation","Social Media Listening","Query and comments reply"],
       },
       {
         title: "ALL IN ONE SPARK PACKAGE",
-        price: "$1000",
+        price: "$1530",
         description: "Ideal for small businesses.",
         features: ["Initial Brand Analysis", "Consumer Persona Analysis", "Competitor Analysis - Local and Nationwide","Customized Social Media Strategy","Copywriting - Team of 04 Dedicated Social Media Writers","Advertising - Team of 04 Dedicated Social Media Ads Experts","Content Plan Creation","35 Custom Designed Social Media Posts per month","Monthly Google Ads Management - Google Shopping + Google Search Campaigns","Goal Focused Facebook Ad Campaigns","Community Management - All Community Based Social Networks","Page Management (Facebook, Instagram, Linked In, and Twitter)","Page Spam Management - all social media platforms","Engagement Tracking Setup","Facebook Shop Creation","Detailed Page Moderation - All Social Networks","Strategic Ad Campaign Optimization & A/B Testing","Social Media Listening","Monthly Analytics Reporting - KPI Comparison and more","Social Media Listening"],
       },
@@ -548,19 +548,19 @@ const Packages = () => {
     "Logo Design": [
       {
         title: "BASIC LOGO PACKAGE",
-        price: "$30",
+        price: "$45",
         description: "Ideal for startups and brand revamps.",
         features: ["3 Custom Logo Concepts", "1 Designer", "4 Revisions", "24-48 hours TAT", "100% Unique Design Guarantee"],
       },
       {
         title: "START UP LOGO PACKAGE",
-        price: "$60",
+        price: "$92",
         description: "Perfect for growing businesses.",
         features: ["5 Custom Logo Concepts", "2 Designers", "Unlimited Revisions", "48-72 hours TAT", "Final Files in AI, PSD, PNG, PDF"],
       },
       {
         title: "LOGO GROWUP PACKAGE",
-        price: "$85",
+        price: "$130",
         description: "For established businesses.",
         features: ["8 Custom Logo Concepts", "3 Designers", "Unlimited Revisions", "Stationary Design", "Free MS Word Letterhead"],
       },
