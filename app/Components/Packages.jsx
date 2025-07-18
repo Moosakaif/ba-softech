@@ -1167,6 +1167,26 @@ const Packages = () => {
         features: ["UNLIMITED custom and Unique design", "UNLIMITED Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and VFX","Music and foley","All source files format Included Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
       },
     ],
+    "Branding": [
+      {
+        title: "STARTUP COLLATERAL PACKAGE",
+        price: "$99.99",
+        description: "Basic branding essentials.",
+        features: ["2 Stationery Design Set", "FREE Fax Template", "Print Ready Formats","UNLIMITED Revisions","100% Satisfaction Guarantee"],
+      },
+      {
+        title: "COLLATERAL CLASSIC PACKAGE",
+        price: "$199.99",
+        description: "Full branding package for businesses.",
+        features: ["2 Stationery Design Set", "UNLIMITED Revisions", "Flyer Design","Brochure Design (Bi-fold/Tri-fold)","100% Satisfaction Guarantee"],
+      },
+      {
+        title: "PREMIUM COLLATERAL PACKAGE",
+        price: "$399.99",
+        description: "Complete identity package.",
+        features: ["Hat Design", "Invoice Design", "Email Signature Design","2 Stationery Design Set","Packaging Design","UNLIMITED Revisions","T-Shirt Design","T-Shirt Design"],
+      },
+    ],
   };
 
   return (
