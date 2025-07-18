@@ -1141,6 +1141,32 @@ const Packages = () => {
         features: ["30 Seconds 2D Explainer Video", "Voice - Over & Sound Effects", "Professional Script Writing", "Storyboard", "SEO Meta Tags","Custom Made, Interactive, Dynamic & High End Design","Custom WP (or) Custom PHP Development","1 jQuery Slider Banner","Up to 10 Custom Made Banner Designs","10 Stock Images","Unlimited Revisions","Special Hoover Effects","Content Management System (CMS)","Online Appointment","Online Payment Integration (Optional)","Multi Lingual (Optional)","Custom Dynamic Forms (Optional)","Signup Area (For Newsletters, Offers etc.)","Search Bar","Live Feeds of Social Networks Integration (Optional)","Mobile Responsive","FREE 5 Years Domain Name","Free Google Friendly Sitemap","Search Engine Submission","Complete W3C Certified HTML","Industry Specified Team of Expert Designers and Developers","Complete Deployment","Dedicated Accounts Manager","100% Ownership Rights","100% Satisfaction Guarantee","100% Unique Design Guarantee"],
       },
     ],
+    "Animations": [
+      {
+        title: "2D STANDARD LOGO ANIMATION",
+        price: "55",
+        description: "Simple logo animations.",
+        features: ["3 custom and Unique design", "2 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","3 Revisions","Animation and Effects","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+      {
+        title: "2D ADVANCE LOGO PACKAGE",
+        price: "$199",
+        description: "Short explainer video for businesses.",
+        features: ["3 custom and Unique design", "3 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and Effects","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+      {
+        title: "3D STANDARD LOGO ANIMATION",
+        price: "$245",
+        description: "Ideal for corporate storytelling.",
+        features: ["5 custom and Unique design", "5 Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and VFX","Dynamic colours","background music","Source files format Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+      {
+        title: "3D ADVANCE ANIMATION",
+        price: "$299",
+        description: "High-end animation package.",
+        features: ["UNLIMITED custom and Unique design", "UNLIMITED Unique Animation styles", "Camera Angles Positioning", "Lighting/Composing","unlimited Revisions","Animation and VFX","Music and foley","All source files format Included Mp4 MOV ETC","100% SATISFACTION GURANTEE","100% unique design gurantee"],
+      },
+    ],
   };
 
   return (
