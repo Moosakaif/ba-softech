@@ -27,7 +27,7 @@ const Footer = () => {
           <h1 className='text-cards font-bold text-xl'>Contact Links</h1>
 
             {/* <li data-aos="fade-down" className='hover:text-white hover:cursor-pointer'>Address</li> */}
-            <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>+ (213)-536-0767</li>
+            <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>+(832)-336-8101</li>
             {/* <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>+ (213)-536-0767</li> */}
             <li data-aos="fade-right" className='hover:text-white mt-4 hover:cursor-pointer'>5141 Fawn Hollow Way Antelope, CA 95843, USA</li>
             
