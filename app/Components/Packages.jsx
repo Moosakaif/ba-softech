@@ -14,6 +14,9 @@ const Packages = () => {
   const changeRegionAus = () => {
     setRegion("Australia")
   }
+  const changeRegionUK = () => {
+    setRegion("United Kingdom")
+  }
 
   const changeBackRegion = () => {
     setRegion("USA")
